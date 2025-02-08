@@ -1,0 +1,8 @@
+# Add your dependencies here
+numpy
+pandas
+scikit-learn
+geopandas
+rasterio
+twilio  # for SMS
+python-dotenv
