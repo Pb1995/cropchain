@@ -4,5 +4,5 @@ pandas
 scikit-learn
 geopandas
 rasterio
-twilio  # for SMS
-python-dotenv
+twilio>=8.10.0
+python-dotenv>=1.0.0
