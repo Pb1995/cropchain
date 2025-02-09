@@ -1,7 +1,11 @@
 from src.utils.config import load_farmers
 from src.messaging.farmer_sms import send_farmer_sms
 from src.models.yield_predictor import predict_yield
+from src.utils.log_formatter import setup_pretty_logging
 import logging
+
+# Setup pretty logging
+setup_pretty_logging()
 
 def execute_sms_pipeline():
     """Execute the SMS pipeline to generate and send predictions to farmers."""
